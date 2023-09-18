@@ -1,0 +1,29 @@
+h1{
+    color: greenyellow;
+    opacity: .5;
+    position: absolute;
+    transition: all .5s;
+    top: 50px;
+    
+}
+
+h1:hover{
+    opacity: 1;
+    color: rebeccapurple;
+    transform: scale(150%) translateX(18%);
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    color: slategray;
+
+}
+a:visited{
+    color: slategray;
+}
+a:hover{
+    text-decoration: underline;
+    color: fuchsia;
+}

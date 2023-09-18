@@ -1,0 +1,39 @@
+#principal{
+    color: orange;
+}
+
+h1{
+    color: fuchsia;
+}
+
+.titre{
+    color: red;
+}
+
+@keyframes ghost_animation {
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(50px,-50px);
+    }
+    50%{
+        transform: translate(50px,50px);
+    }
+    75%{
+        transform: translate(100px,50px);
+    }
+    to{
+        transform: translate(0,0);
+    }
+
+}
+
+#ghost{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    border-radius: 50%;
+    animation: ghost_animation 3s infinite;
+}
